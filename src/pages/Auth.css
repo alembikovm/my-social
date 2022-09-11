@@ -1,0 +1,27 @@
+.titile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.my-social-text {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.toggle-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggle-text ion-text {
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.toggle-text ion-text:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,40 @@
+.toolbar-wrapper {
+  display: flex;
+  min-width: 1128px;
+  margin: auto;
+}
+
+.my-social-logo {
+  font-size: 40px;
+}
+
+.toolbar-wrapper ion-icon {
+  font-size: 24px;
+}
+
+.toolbar-wrapper ion-col {
+  width: 80px !important;
+  text-align: center;
+}
+
+.toolbar-wrapper ion-col div,
+ion-badge {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.my-social-logo ion-avatar{
+  width: 24px;
+  height: 24px;
+  margin: auto;
+}
+
+ion-searchbar {
+  --box-shadow: none;
+  transform: scale(0.8);
+  /* margin-left: -40px; */
+}
+
+ion-header {
+  border-bottom: 1px solid var(--on-color-light-tint);
+}
